@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/main.css">
+    <title>Plant Classifer</title>
+</head>
+<body>
+    
+    <script src="static/scripts.js"></script>
+    
+    <div class="container">
+        <h1>Plant Classifier</h1>
+        <h2 id="prediction"></h2>
+        <h2 id="confidence"></h2>
+        <img id="file-preview" src="static/placeholder.jpg">
+        <input id="fileupload" type="file" name="fileupload" onchange="preview(event);"/>
+        <button id="upload-button" onclick="saveFile()">Upload</button>
+    </div>
+    
+</body>
+</html>
